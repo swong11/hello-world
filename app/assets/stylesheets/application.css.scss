@@ -11,3 +11,30 @@
  *= require_self
  *= require_tree .
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	background: url('helloworld.png') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover; 
+}
+
+h1 {
+ 	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 100;
+	font-size: 90px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 26px;
+	color: #DAE3E8;
+	padding-top: 75px;
+	padding-left: 35px;
+	text-align: right;
+
+
+}
+
