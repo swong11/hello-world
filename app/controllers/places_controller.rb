@@ -1,5 +1,6 @@
 class PlacesController < ApplicationController
 	def index
+		@place = Place.order("RANDOM()").first
 	end
 
 	def new
