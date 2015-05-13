@@ -54,4 +54,7 @@ HelloWorld::Application.routes.draw do
   #     resources :products
   #   end
   root 'places#index'
+
+  resources :places
+
 end
