@@ -53,5 +53,5 @@ HelloWorld::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'words#index'
+  root 'places#index'
 end
