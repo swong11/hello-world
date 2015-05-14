@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HelloWorld</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <title>Hello World</title>
+  <%= stylesheet_link_tag  "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<header>
-		<div class="col-xs-4">
-			<%= link_to 'Add a New Place', new_place_path %>
+		
+		<div class="textbox col-xs-5">
+			<%= link_to 'I have a suggestion', new_place_path, :class => 'link' %>
 		</div>
+
 	</header>
 
 

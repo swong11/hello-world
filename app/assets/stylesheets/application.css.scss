@@ -17,12 +17,13 @@
 
 body {
 
-	/*background: url('helloworld.png') no-repeat center center fixed; */
+	background: url('helloworld.png') no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover; 
 }
+
 
 
 h1 {
@@ -39,5 +40,23 @@ h1 {
 
  }
 
+.link {
+	color: white;
+}
+
+.link a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.box {
+  -webkit-transition: all 500ms ease-out;
+-moz-transition: all 500ms ease-out;
+-ms-transition: all 500ms ease-out;
+-o-transition: all 500ms ease-out;
+transition: all 500ms ease-out;
+}
 
 
